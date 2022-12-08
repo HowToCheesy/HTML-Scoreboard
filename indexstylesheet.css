@@ -1,0 +1,194 @@
+* {
+    font-family: 'Product Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(0,35,60);
+    height: inherit;
+    top: inherit;
+    left: inherit;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: transparent;
+}
+
+/*.end {
+    position: fixed;
+    height: 45px;
+    top: 20px;
+    left: 220px;
+    width: 120px;
+    background-color: deeppink;
+}*/
+
+.logo {
+    position: fixed;
+    height: 140px;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    background-color: ghostwhite;
+}
+
+.team {
+    height: 70px;
+    left: 20px;
+    width: 300px;
+}
+
+#blue {
+    position: fixed;
+    top: 20px;
+}
+
+#red {
+    position: fixed;
+    top: 90px;
+}
+
+.name {
+    position: fixed;
+    text-align: left;
+    left: 120px;
+    width: 230px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    text-transform: uppercase;
+    line-height: 45px;
+    font-size: 30px;
+}
+
+#blueName {
+    background-color: ghostwhite;
+}
+
+#redName {
+    background-color: ghostwhite;
+}
+
+.skipRocks {
+    position: fixed;
+    left: 120px;
+    width: 45px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mateRocks {
+    position: fixed;
+    left: 175px;
+    width: 45px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondRocks {
+    position: fixed;
+    left: 230px;
+    width: 45px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leadRocks {
+    position: fixed;
+    left: 285px;
+    width: 45px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#blueRocks {
+    position: fixed;
+    top: 60px;
+    background-color: ghostwhite;
+    
+}
+
+#redRocks {
+    position: fixed;
+    top: 130px;
+    background-color: ghostwhite;
+}
+
+.circle {
+    margin-top: 5px;
+    height: 20px;
+    width: 20px;
+    background-color: gainsboro;
+    border-radius: 50%;
+}
+.redRock {
+    margin-top: 5px;
+    height: 20px;
+    width: 20px;
+    background-color: firebrick;
+    border-radius: 50%;
+}
+.blueRock {
+    margin-top: 5px;
+    height: 20px;
+    width: 20px;
+    background-color: steelblue;
+    border-radius: 50%;
+}
+
+.hammer {
+    position: fixed;
+    left: 350px;
+    width: 50px;
+}
+
+.hammer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    height: 60%; 
+    width: 60%; 
+    object-fit: contain
+}
+
+#blueHammer {
+    background-color:ghostwhite;
+}
+
+#redHammer {
+    background-color: ghostwhite;
+}
+
+.score{
+    position: fixed;
+    left: 400px;
+    width: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    line-height: 70px;
+    font-size: 50px;
+}
+
+#blueScore {
+    background-color: ghostwhite;
+}
+
+#redScore{
+    background-color: ghostwhite;
+}
+
+.bottom {
+    position: fixed;
+    height: 35px;
+    top: 160px;
+    left: 20px;
+    width: 440px;
+    background-color: rgb(0,35,60);
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
